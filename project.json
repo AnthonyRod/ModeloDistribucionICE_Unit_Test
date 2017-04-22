@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "mstest",
+
+  "dependencies": {
+    "ModeloDistribucionICE": "1.0.0-*",
+    "dotnet-test-mstest": "1.1.2-preview",
+    "MSTest.TestFramework": "1.0.8-rc2",
+    "Microsoft.Extensions.Caching.Memory": "1.1.0",
+    "System.Data.Common": "4.3.0",
+    "System.Data.SqlClient": "4.3.0",
+    "System.Drawing.Primitives": "4.3.0",
+    "MathNet.Numerics": "3.17.0"
+  },
+
+  "frameworks": {
+    "net452": {
+      "dependencies": {
+        "System.Drawing.Common": "4.0.0",
+        "Microsoft.AspNet.Mvc": "5.2.3",
+        "Sybase.AdoNet.AseClient.dll": "1.0.0",
+        "System.Device.Location.Portable": "1.0.0"
+      },
+
+      "frameworkAssemblies": {
+        "System.Data.DataSetExtensions": "4.0.0.0",
+        "System.Web.Extensions": "4.0.0.0"
+      }
+    }
+
+
+  }
+}
